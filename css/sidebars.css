@@ -87,3 +87,7 @@ main {
 
 .fw-semibold { font-weight: 600; }
 .lh-tight { line-height: 1.25; }
+
+.rounded-chat {
+  border-radius: 15px;
+}
