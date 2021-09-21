@@ -33,16 +33,9 @@
   </style>
 
   <!-- Custom styles for this template -->
-  <link href="../css/dashboard.css" rel="stylesheet">
+  <link href="../css/sidebars.css" rel="stylesheet">
 </head>
 
 <body>
-
-  <?php include('navbar.php') ?>
-
-  <div class="container-fluid">
-    <div class="row">
-
-      <?php include('sidebar.php') ?>
-
-      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+  <main>
+    <?php include('sidebar.php') ?>

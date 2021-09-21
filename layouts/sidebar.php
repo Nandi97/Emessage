@@ -1,69 +1,84 @@
-<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
-  <div class="position-sticky pt-3">
-    <ul class="nav flex-column">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="/library_management">
-          <span data-feather="home"></span>
-          Dashboard
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/library_management/books">
-          <span data-feather="shopping-cart"></span>
-          Books
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/library_management/users">
-          <span data-feather="users"></span>
-          Users
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <span data-feather="bar-chart-2"></span>
-          Reports
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <span data-feather="layers"></span>
-          Integrations
-        </a>
-      </li>
-    </ul>
-
-    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-      <span>Saved reports</span>
-      <a class="link-secondary" href="#" aria-label="Add a new report">
-        <span data-feather="plus-circle"></span>
-      </a>
-    </h6>
-    <ul class="nav flex-column mb-2">
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <span data-feather="file-text"></span>
-          Current month
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <span data-feather="file-text"></span>
-          Last quarter
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <span data-feather="file-text"></span>
-          Social engagement
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <span data-feather="file-text"></span>
-          Year-end sale
-        </a>
-      </li>
-    </ul>
-  </div>
+<div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-white col-md-4 col-lg-3">
+<nav class="navbar-dark bg-secondary">
+  <a href="/" class="d-flex align-items-center flex-shrink-0 p-3 link-dark text-decoration-none border-bottom">
+    <svg class="bi me-2" width="30" height="24">
+      <use xlink:href="#bootstrap" />
+    </svg>
+    <span class="fs-5 fw-semibold">List group</span>
+  </a>
 </nav>
+  <div class="list-group list-group-flush border-bottom scrollarea" role="tablist">
+    <a href="#list-1" class="list-group-item list-group-item-action active" aria-current="true" id="list-1-list" data-bs-toggle="list" role="tab">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small>3 days ago</small>
+      </div>
+      <p class="mb-1">Some placeholder content in a paragraph.</p>
+      <small>And some small print.</small>
+    </a>
+    <a href="#list-2" class="list-group-item list-group-item-action" id="list-2-list" data-bs-toggle="list" role="tab">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small class="text-muted">3 days ago</small>
+      </div>
+      <p class="mb-1">Some placeholder content in a paragraph.</p>
+      <small class="text-muted">And some muted small print.</small>
+    </a>
+    <a href="#list-3" class="list-group-item list-group-item-action" id="list-3-list" data-bs-toggle="list" role="tab">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small class="text-muted">3 days ago</small>
+      </div>
+      <p class="mb-1">Some placeholder content in a paragraph.</p>
+      <small class="text-muted">And some muted small print.</small>
+    </a>
+    <a href="#list-4" class="list-group-item list-group-item-action" id="list-4-list" data-bs-toggle="list" role="tab">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small class="text-muted">3 days ago</small>
+      </div>
+      <p class="mb-1">Some placeholder content in a paragraph.</p>
+      <small class="text-muted">And some muted small print.</small>
+    </a>
+    <a href="#list-5" class="list-group-item list-group-item-action" id="list-5-list" data-bs-toggle="list" role="tab">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small class="text-muted">3 days ago</small>
+      </div>
+      <p class="mb-1">Some placeholder content in a paragraph.</p>
+      <small class="text-muted">And some muted small print.</small>
+    </a>
+    <a href="#list-6" class="list-group-item list-group-item-action" id="list-6-list" data-bs-toggle="list" role="tab">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small class="text-muted">3 days ago</small>
+      </div>
+      <p class="mb-1">Some placeholder content in a paragraph.</p>
+      <small class="text-muted">And some muted small print.</small>
+    </a>
+    <a href="#list-7" class="list-group-item list-group-item-action" id="list-7-list" data-bs-toggle="list" role="tab">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small class="text-muted">3 days ago</small>
+      </div>
+      <p class="mb-1">Some placeholder content in a paragraph.</p>
+      <small class="text-muted">And some muted small print.</small>
+    </a>
+    <a href="#list-8" class="list-group-item list-group-item-action" id="list-8-list" data-bs-toggle="list" role="tab">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small class="text-muted">3 days ago</small>
+      </div>
+      <p class="mb-1">Some placeholder content in a paragraph.</p>
+      <small class="text-muted">And some muted small print.</small>
+    </a>
+    <a href="#list-9" class="list-group-item list-group-item-action" id="list-9-list" data-bs-toggle="list" role="tab">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">List group item heading</h5>
+        <small class="text-muted">3 days ago</small>
+      </div>
+      <p class="mb-1">Some placeholder content in a paragraph.</p>
+      <small class="text-muted">And some muted small print.</small>
+    </a>
+  </div>
+</div>
