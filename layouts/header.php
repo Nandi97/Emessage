@@ -38,4 +38,3 @@
 
 <body>
   <main>
-    <?php include('sidebar.php') ?>

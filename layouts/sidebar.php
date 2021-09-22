@@ -8,9 +8,12 @@
           <i class="bi bi-three-dots-vertical"></i>
         </div>
       </div>
+      <div class="row col-12 p-2">
+        <input class="form-control form-control-dark " type="text" placeholder="Search" aria-label="Search">
+      </div>
     </div>
   </nav>
-  
+
   <div class="list-group list-group-flush border-bottom scrollarea" role="tablist">
     <a href="#list-1" class="list-group-item list-group-item-action active" aria-current="true" id="list-1-list" data-bs-toggle="list" role="tab">
       <div class="d-flex w-100 justify-content-between">
